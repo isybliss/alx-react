@@ -1,4 +1,4 @@
 node_modules
-dist/main.js
-dist/*LICENSE*
+/dist/main.js
+/dist/main.js.LICENSE.txt
 package-lock.json
