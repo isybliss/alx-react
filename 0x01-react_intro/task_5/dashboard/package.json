@@ -2,11 +2,11 @@
   "name": "dashboard",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +19,5 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  },
-  "dependencies": {
-    "inline-source-map": "^0.6.2"
   }
 }
